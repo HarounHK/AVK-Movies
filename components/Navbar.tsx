@@ -23,7 +23,7 @@ export const Navbar = () => {
           <Link href="/" className="hover:text-gray-50">temp</Link>
           <Link href="/" className="hover:text-gray-50">temp</Link>
           <Link href="/" className="hover:text-gray-50">temp</Link>
-          <Link href="/" className="hover:text-gray-50">temp</Link>
+          <Link href="/contact" className="hover:text-gray-50">temp</Link>
         </div>
 
         <div className="hidden md:flex">
