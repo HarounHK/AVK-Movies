@@ -19,11 +19,11 @@ export const Navbar = () => {
           </Link>
         </div>
         
-        <div className="cursor-pointer hidden md:flex space-x-10 items-center text-slate-300 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50to bg-neutral-400 bg-opacity-50">
-          <Link href="/" className="hover:text-gray-50">temp</Link>
-          <Link href="/" className="hover:text-gray-50">temp</Link>
-          <Link href="/" className="hover:text-gray-50">temp</Link>
-          <Link href="/contact" className="hover:text-gray-50">temp</Link>
+        <div className="cursor-pointer hidden md:flex space-x-10 items-center text-slate-300 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50to bg-white text-white bg-opacity-50">
+          <Link href="/" className="hover:text-gray-400">temp</Link>
+          <Link href="/" className="hover:text-gray-400">temp</Link>
+          <Link href="/" className="hover:text-gray-400">temp</Link>
+          <Link href="/contact" className="hover:text-gray-400">temp</Link>
         </div>
 
         <div className="hidden md:flex">
