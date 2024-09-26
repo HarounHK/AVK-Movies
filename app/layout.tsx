@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import {Poppins} from "next/font/google"
+import { Poppins } from "next/font/google";
+import { Navbar } from "../components/Navbar";
+// import { Footer } from "../components/Footer"; 
 import "./globals.css";
 
 const font = Poppins({
   subsets: ["latin"],
-  weight: '400'
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -21,10 +23,13 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning={true}
-
-        className={font.className}
+        className={`${font.className} w-full h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden`}
       >
-        {children}
+      <div className="relative z-10"><Navbar/></div>
+
+        <main>{children}</main>
+
+        {/* <Footer /> */}
       </body>
     </html>
   );
